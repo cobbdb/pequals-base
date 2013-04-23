@@ -1,18 +1,16 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
         <style>
 body {
     margin: 0;
     padding: 0;
 }
-
 #pebw {
     height: 28px;
 }
-
 #pageBanner {
     cursor: default;
     width: 100%;
@@ -24,7 +22,6 @@ body {
     text-align: left;
     overflow: hidden;
 }
-
 #pageBanner ul {
     white-space: nowrap;
     list-style: none;
@@ -33,7 +30,6 @@ body {
     display: block;
     margin-left: 8px;
 }
-
 #pageBanner li {
     cursor: pointer;
     list-style: none;
@@ -43,23 +39,20 @@ body {
     display: inline-block;
     font: 13px/27px Arial,Helvetica,sans-serif;
 }
-
 #pageBanner a {
     text-decoration: none;
     color: #BBB;
     font-weight: bold;
     font-size: 13px;
 }
-
 /*#pebwiki a {
     color: #7BA;
 }*/
-
 #pageBanner li:hover a {
     color: white;
 }
         </style>
-        <?php echo $head ?>
+        <?= $head ?>
     </head>
     <body>
         <div id="pebw">
@@ -72,7 +65,6 @@ body {
                 </ul>
             </div>
         </div>
-
-        <?php echo $body ?>
+        <?= $body ?>
     </body>
 </html>
