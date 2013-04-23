@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-        <style>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <style>
 body {
     margin: 0;
     padding: 0;
@@ -51,20 +51,20 @@ body {
 #pageBanner li:hover a {
     color: white;
 }
-        </style>
-        <?= $head ?>
-    </head>
-    <body>
-        <div id="pebw">
-            <div id="pageBanner">
-                <ul>
-                    <li id="pebwiki"><a href="http://www.appropedia.org">Appropedia</a></li>
-                    <li id="pebhome"><a href="http://www.pequals.com">PEquals</a></li>
-                    <li id="pebrain"><a href="http://www.pequals.com/rain">Rain</a></li>
-                    <li id="pebappr"><a href="http://www.pequals.com/apprount">Apprount</a></li>
-                </ul>
-            </div>
+    </style>
+    <?= $head ?>
+</head>
+<body>
+    <div id="pebw">
+        <div id="pageBanner">
+            <ul>
+                <li id="pebwiki"><a href="http://www.appropedia.org" rel="nofollow">Appropedia</a></li>
+                <li id="pebhome"><a href="/">PEquals</a></li>
+                <li id="pebrain"><a href="/rain">Rain</a></li>
+                <li id="pebappr"><a href="/apprount">Apprount</a></li>
+            </ul>
         </div>
-        <?= $body ?>
-    </body>
+    </div>
+    <?= $body ?>
+</body>
 </html>
