@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pebw {
+    height: 28px;
+}
+
+#pageBanner {
+    cursor: default;
+    width: 100%;
+    height: 28px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+#pageBanner ul {
+    white-space: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: 8px;
+}
+
+#pageBanner li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 0 9px;
+    position: relative;
+    display: inline-block;
+    font: 13px/27px Arial,Helvetica,sans-serif;
+}
+
+#pageBanner a {
+    text-decoration: none;
+    color: #BBB;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*#pebwiki a {
+    color: #7BA;
+}*/
+
+#pageBanner li:hover a {
+    color: white;
+}
+        </style>
+        <?php echo $head ?>
+    </head>
+    <body>
+        <div id="pebw">
+            <div id="pageBanner">
+                <ul>
+                    <li id="pebwiki"><a href="http://www.appropedia.org">Appropedia</a></li>
+                    <li id="pebhome"><a href="http://www.pequals.com">PEquals</a></li>
+                    <li id="pebrain"><a href="http://www.pequals.com/rain">Rain</a></li>
+                    <li id="pebappr"><a href="http://www.pequals.com/apprount">Apprount</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <?php echo $body ?>
+    </body>
+</html>
