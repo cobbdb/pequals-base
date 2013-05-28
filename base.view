@@ -19,7 +19,7 @@ body{margin:0;padding:0}
     <div id="pebw">
         <div id="pageBanner">
             <ul>
-                <li id="pebwiki"><a href="http://www.appropedia.org" rel="nofollow">Appropedia</a></li>
+                <li id="pebwiki"><a href="//www.appropedia.org" rel="nofollow">Appropedia</a></li>
                 <li id="pebhome"><a href="/">PEquals</a></li>
                 <li id="pebrain"><a href="/rain">Rain</a></li>
                 <li id="pebappr"><a href="/apprount">Apprount</a></li>
